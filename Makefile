@@ -40,4 +40,12 @@ valgrind: testa_velha
 clean:
 	rm -rf *.o *.exe *.gc* testa_velha 
 	
+commit_tests: testa_velha
+	# The '-' at the beginning tells 'make' to continue even if this command fails.
+	-./testa_velha > test_results.log
+	# These commands will now always run.
+	git add test_results.log
+	git commit -m "chore: Grava resultados dos testes de $(shell date +'%Y-%m-%d %H:%M:%S')"
+ 
+	
 	
