@@ -82,6 +82,18 @@ int VerificaValido(int velha[3][3]) {
 }
 
 int VerificaFim(int velha[3][3]){
-	return 0;
+	int z = 0;
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			if (velha[i][j] == 0) {
+				z++;
+			}
+		}
+	}
+	if (z == 0) {
+		return 1; // Jogo terminou
+	} else {
+		return 0; // Jogo nao terminou
+	}
 }
 
