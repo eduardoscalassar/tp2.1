@@ -1,0 +1,52 @@
+        -:    0:Source:velha.cpp
+        -:    1:/**
+        -:    2: * \file  velha.cpp
+        -:    3: */
+        -:    4:
+        -:    5: 
+        -:    6:#include "velha.hpp"
+        -:    7:
+        -:    8:/** 
+        -:    9: * @brief verifica situacao do jogo da velha  
+        -:   10: * @author Programador 
+        -:   11: * @param  velha descreve o parametro
+        -:   12: * 
+        -:   13: *  Descrever o que a funcao faz
+        -:   14: */ 
+        -:   15:
+        1:   16:int VerificaVelha( int velha[3][3] )
+        -:   17:{
+        -:   18:	//verificando se x completou alguma linha
+       1*:   19:	if ( (velha[0][0] == 1) && (velha[0][1] == 1) && (velha[0][2] == 1) ) return 1;
+       1*:   20:	if ( (velha[1][0] == 1) && (velha[1][1] == 1) && (velha[1][2] == 1) ) return 1;
+       1*:   21:	if ( (velha[2][0] == 1) && (velha[2][1] == 1) && (velha[2][2] == 1) ) return 1;
+        -:   22:
+        -:   23:	// verificando se O completou alguma linha
+       1*:   24:	if ( (velha[0][0] == 2) && (velha[0][1] == 2) && (velha[0][2] == 2) ) return 2;
+       1*:   25:	if ( (velha[1][0] == 2) && (velha[1][1] == 2) && (velha[1][2] == 2) ) return 2;
+       1*:   26:	if ( (velha[2][0] == 2) && (velha[2][1] == 2) && (velha[2][2] == 2) ) return 2;
+        -:   27:
+        -:   28:
+        -:   29:	// verificando se x completou alguma coluna
+       1*:   30:	if ( (velha[0][0] == 1) && (velha[1][0] == 1) && (velha[2][0] == 1) ) return 1;
+       1*:   31:	if ( (velha[0][1] == 1) && (velha[1][1] == 1) && (velha[2][1] == 1) ) return 1;
+        1:   32:	if ( (velha[0][2] == 1) && (velha[1][2] == 1) && (velha[2][2] == 1) ) return 1;
+        -:   33:
+        -:   34:	// verificando se O completou alguma coluna
+    #####:   35:	if ( (velha[0][0] == 2) && (velha[1][0] == 2) && (velha[2][0] == 2) ) return 2;
+    #####:   36:	if ( (velha[0][1] == 2) && (velha[1][1] == 2) && (velha[2][1] == 2) ) return 2;
+    #####:   37:	if ( (velha[0][2] == 2) && (velha[1][2] == 2) && (velha[2][2] == 2) ) return 2;
+        -:   38:
+        -:   39:	// verificando se x completou alguma diagonal
+    #####:   40:	if ( (velha[0][0] == 1) && (velha[1][1] == 1) && (velha[2][2] == 1) ) return 1;
+    #####:   41:	if ( (velha[0][2] == 1) && (velha[1][1] == 1) && (velha[2][0] == 1) ) return 1;
+        -:   42:
+        -:   43:	// verificando se O completou alguma diagonal
+    #####:   44:	if ( (velha[0][0] == 2) && (velha[1][1] == 2) && (velha[2][2] == 2) ) return 2;
+    #####:   45:	if ( (velha[0][2] == 2) && (velha[1][1] == 2) && (velha[2][0] == 2) ) return 2;
+        -:   46:
+    #####:   47:	return 0;
+        -:   48:}
+        -:   49:
+        -:   50:
+        -:   51:

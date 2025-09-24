@@ -1,0 +1,66 @@
+Ignoring cpplint.py; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring gcov_report_20250924_144707.log; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring leia_me.txt; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring test_results.log; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring test_results_20250924_142813.log; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring test_results_20250924_142916.log; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring test_results_20250924_143955.log; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring testa_velha-testa_velha.gcda; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring testa_velha-testa_velha.gcno; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+testa_velha.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+testa_velha.cpp:6:  Include the directory when naming header files  [build/include_subdir] [4]
+testa_velha.cpp:11:  Include the directory when naming header files  [build/include_subdir] [4]
+testa_velha.cpp:12:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+testa_velha.cpp:15:  Extra space after ( in function call  [whitespace/parens] [4]
+testa_velha.cpp:16:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:16:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+testa_velha.cpp:17:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:18:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:19:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:20:  Extra space after ( in function call  [whitespace/parens] [4]
+testa_velha.cpp:20:  Extra space before )  [whitespace/parens] [2]
+testa_velha.cpp:22:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]
+testa_velha.cpp:23:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+testa_velha.cpp:24:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+testa_velha.cpp:24:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+velha.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+velha.cpp:5:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+velha.cpp:5:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+velha.cpp:6:  Include the directory when naming header files  [build/include_subdir] [4]
+velha.cpp:16:  Extra space after ( in function call  [whitespace/parens] [4]
+velha.cpp:17:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+velha.cpp:18:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:18:  Should have a space between // and comment  [whitespace/comments] [4]
+velha.cpp:19:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:20:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:21:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:23:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:24:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:25:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:26:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:29:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:30:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:31:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:32:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:34:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:35:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:36:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:37:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:39:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:40:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:41:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:43:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:44:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:45:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:47:  Tab found; better to use spaces  [whitespace/tab] [1]
+Ignoring velha.cpp.gcov; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring velha.gcda; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+Ignoring velha.gcno; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
+velha.hpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+velha.hpp:0:  No #ifndef header guard found, suggested CPP variable is: VELHA_HPP_  [build/header_guard] [5]
+velha.hpp:1:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+velha.hpp:1:  Extra space after ( in function call  [whitespace/parens] [4]
+velha.hpp:1:  Extra space before )  [whitespace/parens] [2]
+velha.hpp:2:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+velha.hpp:2:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+Ignoring velha.o; not a valid file name (hxx, h++, cpp, c++, cuh, cc, hh, cu, c, cxx, hpp, h)
