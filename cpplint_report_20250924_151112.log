@@ -1,0 +1,19 @@
+Ignoring cppcheck_report_20250924_144738.log; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring cpplint.py; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring cpplint_report_20250924_144734.log; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring gcov_report_20250924_144707.log; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring leia_me.txt; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring test_results.log; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring test_results_20250924_142813.log; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring test_results_20250924_142916.log; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring test_results_20250924_143955.log; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring testa_velha-testa_velha.gcda; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring testa_velha-testa_velha.gcno; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+testa_velha.cpp:7:  Include the directory when naming header files  [build/include_subdir] [4]
+testa_velha.cpp:12:  Include the directory when naming header files  [build/include_subdir] [4]
+velha.cpp:6:  Include the directory when naming header files  [build/include_subdir] [4]
+Ignoring velha.cpp.gcov; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring velha.gcda; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+Ignoring velha.gcno; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
+velha.hpp:7:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+Ignoring velha.o; not a valid file name (hxx, h++, cxx, hpp, hh, cc, cpp, c, cu, c++, cuh, h)
