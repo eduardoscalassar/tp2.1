@@ -98,6 +98,25 @@ int VerificaFim(int velha[3][3]){
 }
 
 int SituacaoJogo(int velha[3][3]){
-	return 3; //O teste vai falhar
+	// retorna 2 se bola ganhar
+	if (VerificaVelha(velha) == 2) {
+		return 2;
+	}
+	// retorna 1 se xis ganhar
+	if (VerificaVelha(velha) == 1) {
+		return 1;
+	}	
+	// retorna 0 se empatar
+	if ((VerificaVelha(velha) == 0) && (VerificaFim(velha) == 1)) {
+		return 0;
+	}
+	// retorna -1 se jogo nao terminou
+	if (VerificaFim(velha) == 0) {
+		return -1;
+	}
+	// retorna -2 se jogo invalido
+	if (VerificaValido(velha) == 0) {
+		return -2;
+	}
 }
 
