@@ -41,9 +41,14 @@ clean:
 	rm -rf *.o *.exe *.gc* testa_velha 
 
 commit_tests: testa_velha
-	-./testa_velha > test_results.log
-	git add test_results.log
-	git commit -m "Gravando resultados dos testes de $(shell date +'%Y-%m-%d %H:%M:%S')"
+	# 1. Create a variable with the current timestamp (e.g., 20250924_112723)
+	$(eval TIMESTAMP = $(shell date +'%Y%m%d_%H%M%S'))
+	# 2. Define the log filename using the timestamp
+	$(eval LOG_FILE = test_results_$(TIMESTAMP).log)
+	# 3. Run tests, creating a uniquely named log file (e.g., test_results_20250924_112723.log)
+	-./testa_velha > $(LOG_FILE)
+	# 4. Add the new, specific log file to Git
+	git add $(LOG_FILE)
  
 	
 	
