@@ -35,3 +35,13 @@ TEST_CASE("Testa numero de O", "[single-file]") {
 					 };
   REQUIRE(NumerodeO(teste1) == 3);
 }
+
+TEST_CASE("Testa se o jogo eh valido", "[single-file]") {
+  int teste1[3][3] = { { 2, 0, 1 },
+					   { 2, 0, 1 },
+					   { 0, 2, 1 }
+					 };
+  int diff = NumerodeX(teste1) - NumerodeO(teste1);
+  REQUIRE(diff >= 0);
+  REQUIRE(diff <= 1);
+}

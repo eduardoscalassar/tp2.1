@@ -48,5 +48,5 @@ commit_tests: testa_velha
 	$(eval LOG_FILE = test_results_$(TIMESTAMP).log)
 	-./testa_velha > $(LOG_FILE)
 	git add $(LOG_FILE)
-	git commit -m "chore: Add test results from $(TIMESTAMP)"
-	git push
+	#git commit -m "chore: Add test results from $(TIMESTAMP)"
+	#git push
