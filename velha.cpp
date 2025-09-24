@@ -98,6 +98,10 @@ int VerificaFim(int velha[3][3]){
 }
 
 int SituacaoJogo(int velha[3][3]){
+	// retorna -2 se jogo invalido
+	if (VerificaValido(velha) == 0) {
+		return -2;
+	}
 	// retorna 2 se bola ganhar
 	if (VerificaVelha(velha) == 2) {
 		return 2;
@@ -114,9 +118,6 @@ int SituacaoJogo(int velha[3][3]){
 	if (VerificaFim(velha) == 0) {
 		return -1;
 	}
-	// retorna -2 se jogo invalido
-	if (VerificaValido(velha) == 0) {
-		return -2;
-	}
+	return -3; // erro desconhecido
 }
 
