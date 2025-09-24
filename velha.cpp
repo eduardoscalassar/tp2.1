@@ -69,8 +69,9 @@ int NumerodeO(int velha[3][3]) {
   return contador;
 }
 
-/*
+
 int VerificaValido(int velha[3][3]) {
+	/*
   int numX = NumerodeX(velha);
   int numO = NumerodeO(velha);
   int diff = numX - numO;
@@ -79,5 +80,7 @@ int VerificaValido(int velha[3][3]) {
   } else {
 	return 0;  // Jogo invalido
   }
+	*/
+	return 0;
 }
-*/
+

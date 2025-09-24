@@ -8,5 +8,7 @@ int NumerodeX(int velha[3][3]);
 
 int NumerodeO(int velha[3][3]);
 
+int VerificaValido(int velha[3][3]);
+
 
 #endif  // VELHA_HPP_
