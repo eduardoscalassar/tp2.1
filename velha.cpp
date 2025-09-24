@@ -81,3 +81,7 @@ int VerificaValido(int velha[3][3]) {
   }
 }
 
+int VerificaFim(int velha[3][3]){
+	return 0;
+}
+
