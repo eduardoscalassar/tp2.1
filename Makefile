@@ -41,8 +41,8 @@ clean:
 	rm -rf *.o *.exe *.gc* testa_velha 
 
 commit_tests: testa_velha
-	-./testa_velha > resultado_teste.log
-	git add resultado_teste.log
+	-./testa_velha > test_results.log
+	git add test_results.log
 	git commit -m "Gravando resultados dos testes de $(shell date +'%Y-%m-%d %H:%M:%S')"
  
 	
