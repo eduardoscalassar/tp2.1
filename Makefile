@@ -41,7 +41,15 @@ valgrind: testa_velha
 	valgrind --leak-check=yes --log-file=valgrind.rpt testa_velha
 
 clean:
-	rm -rf *.o *.exe *.gc* testa_velha 
+	rm -rf *.o *.exe *.gc* testa_velha jogo
+
+# Compila o jogo principal
+jogo: velha.o jogo.cpp jogo.hpp main.cpp
+	g++ -std=c++11 -Wall velha.o jogo.cpp main.cpp -o jogo
+
+# Executa o jogo principal
+run: jogo
+	./jogo
 
 commit_tests: testa_velha
 	$(eval TIMESTAMP = $(shell date +'%Y%m%d_%H%M%S'))
