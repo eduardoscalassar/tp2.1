@@ -1,0 +1,29 @@
+Ignoring cppcheck_report_20250924_144738.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring cppcheck_report_20250924_162853.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring cpplint.py; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring cpplint_report_20250924_144734.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring cpplint_report_20250924_151112.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring cpplint_report_20250924_162847.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring gcov_report_20250924_144707.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring gcov_report_20250924_162902.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring leia_me.txt; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results_20250924_142813.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results_20250924_142916.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results_20250924_143955.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results_20250924_152632.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results_20250924_153610.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results_20250924_154331.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results_20250924_162507.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring test_results_20250924_162718.log; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring testa_velha-testa_velha.gcda; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring testa_velha-testa_velha.gcno; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+testa_velha.cpp:7:  Include the directory when naming header files  [build/include_subdir] [4]
+testa_velha.cpp:12:  Include the directory when naming header files  [build/include_subdir] [4]
+testa_velha.cpp:45:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+velha.cpp:6:  Include the directory when naming header files  [build/include_subdir] [4]
+Ignoring velha.cpp.gcov; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring velha.gcda; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+Ignoring velha.gcno; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)
+velha.hpp:14:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+Ignoring velha.o; not a valid file name (c, cu, h, cc, h++, c++, hpp, cuh, cxx, hxx, hh, cpp)

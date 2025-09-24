@@ -1,52 +1,84 @@
         -:    0:Source:velha.cpp
-        -:    1:/**
-        -:    2: * \file  velha.cpp
-        -:    3: */
-        -:    4:
-        -:    5: 
+        -:    1:// Copyright [2025] <Eduardo Scalassara>
+        -:    2:/**
+        -:    3: * \file  velha.cpp
+        -:    4: */
+        -:    5:
         -:    6:#include "velha.hpp"
         -:    7:
-        -:    8:/** 
-        -:    9: * @brief verifica situacao do jogo da velha  
-        -:   10: * @author Programador 
+        -:    8:/**
+        -:    9: * @brief verifica situacao do jogo da velha
+        -:   10: * @author Programador
         -:   11: * @param  velha descreve o parametro
-        -:   12: * 
+        -:   12: *
         -:   13: *  Descrever o que a funcao faz
-        -:   14: */ 
+        -:   14: */
         -:   15:
-        1:   16:int VerificaVelha( int velha[3][3] )
-        -:   17:{
-        -:   18:	//verificando se x completou alguma linha
-       1*:   19:	if ( (velha[0][0] == 1) && (velha[0][1] == 1) && (velha[0][2] == 1) ) return 1;
-       1*:   20:	if ( (velha[1][0] == 1) && (velha[1][1] == 1) && (velha[1][2] == 1) ) return 1;
-       1*:   21:	if ( (velha[2][0] == 1) && (velha[2][1] == 1) && (velha[2][2] == 1) ) return 1;
-        -:   22:
-        -:   23:	// verificando se O completou alguma linha
-       1*:   24:	if ( (velha[0][0] == 2) && (velha[0][1] == 2) && (velha[0][2] == 2) ) return 2;
-       1*:   25:	if ( (velha[1][0] == 2) && (velha[1][1] == 2) && (velha[1][2] == 2) ) return 2;
-       1*:   26:	if ( (velha[2][0] == 2) && (velha[2][1] == 2) && (velha[2][2] == 2) ) return 2;
-        -:   27:
-        -:   28:
-        -:   29:	// verificando se x completou alguma coluna
-       1*:   30:	if ( (velha[0][0] == 1) && (velha[1][0] == 1) && (velha[2][0] == 1) ) return 1;
-       1*:   31:	if ( (velha[0][1] == 1) && (velha[1][1] == 1) && (velha[2][1] == 1) ) return 1;
-        1:   32:	if ( (velha[0][2] == 1) && (velha[1][2] == 1) && (velha[2][2] == 1) ) return 1;
-        -:   33:
-        -:   34:	// verificando se O completou alguma coluna
-    #####:   35:	if ( (velha[0][0] == 2) && (velha[1][0] == 2) && (velha[2][0] == 2) ) return 2;
-    #####:   36:	if ( (velha[0][1] == 2) && (velha[1][1] == 2) && (velha[2][1] == 2) ) return 2;
-    #####:   37:	if ( (velha[0][2] == 2) && (velha[1][2] == 2) && (velha[2][2] == 2) ) return 2;
-        -:   38:
-        -:   39:	// verificando se x completou alguma diagonal
-    #####:   40:	if ( (velha[0][0] == 1) && (velha[1][1] == 1) && (velha[2][2] == 1) ) return 1;
-    #####:   41:	if ( (velha[0][2] == 1) && (velha[1][1] == 1) && (velha[2][0] == 1) ) return 1;
-        -:   42:
-        -:   43:	// verificando se O completou alguma diagonal
-    #####:   44:	if ( (velha[0][0] == 2) && (velha[1][1] == 2) && (velha[2][2] == 2) ) return 2;
-    #####:   45:	if ( (velha[0][2] == 2) && (velha[1][1] == 2) && (velha[2][0] == 2) ) return 2;
-        -:   46:
-    #####:   47:	return 0;
-        -:   48:}
-        -:   49:
-        -:   50:
-        -:   51:
+        2:   16:int VerificaVelha(int velha[3][3]) {
+        -:   17:  // verificando se x completou alguma linha
+       2*:   18:  if ((velha[0][0] == 1) && (velha[0][1] == 1) && (velha[0][2] == 1)) return 1;
+       2*:   19:  if ((velha[1][0] == 1) && (velha[1][1] == 1) && (velha[1][2] == 1)) return 1;
+       2*:   20:  if ((velha[2][0] == 1) && (velha[2][1] == 1) && (velha[2][2] == 1)) return 1;
+        -:   21:
+        -:   22:  // verificando se O completou alguma linha
+       2*:   23:  if ((velha[0][0] == 2) && (velha[0][1] == 2) && (velha[0][2] == 2)) return 2;
+       2*:   24:  if ((velha[1][0] == 2) && (velha[1][1] == 2) && (velha[1][2] == 2)) return 2;
+       2*:   25:  if ((velha[2][0] == 2) && (velha[2][1] == 2) && (velha[2][2] == 2)) return 2;
+        -:   26:
+        -:   27:  // verificando se x completou alguma coluna
+       2*:   28:  if ((velha[0][0] == 1) && (velha[1][0] == 1) && (velha[2][0] == 1)) return 1;
+       2*:   29:  if ((velha[0][1] == 1) && (velha[1][1] == 1) && (velha[2][1] == 1)) return 1;
+        2:   30:  if ((velha[0][2] == 1) && (velha[1][2] == 1) && (velha[2][2] == 1)) return 1;
+        -:   31:
+        -:   32:  // verificando se O completou alguma coluna
+    #####:   33:  if ((velha[0][0] == 2) && (velha[1][0] == 2) && (velha[2][0] == 2)) return 2;
+    #####:   34:  if ((velha[0][1] == 2) && (velha[1][1] == 2) && (velha[2][1] == 2)) return 2;
+    #####:   35:  if ((velha[0][2] == 2) && (velha[1][2] == 2) && (velha[2][2] == 2)) return 2;
+        -:   36:
+        -:   37:  // verificando se x completou alguma diagonal
+    #####:   38:  if ((velha[0][0] == 1) && (velha[1][1] == 1) && (velha[2][2] == 1)) return 1;
+    #####:   39:  if ((velha[0][2] == 1) && (velha[1][1] == 1) && (velha[2][0] == 1)) return 1;
+        -:   40:
+        -:   41:  // verificando se O completou alguma diagonal
+    #####:   42:  if ((velha[0][0] == 2) && (velha[1][1] == 2) && (velha[2][2] == 2)) return 2;
+    #####:   43:  if ((velha[0][2] == 2) && (velha[1][1] == 2) && (velha[2][0] == 2)) return 2;
+        -:   44:
+    #####:   45:  return 0;
+        -:   46:}
+        -:   47:
+        4:   48:int NumerodeX(int velha[3][3]) {
+        4:   49:  int contador = 0;
+       16:   50:  for (int i = 0; i < 3; i++) {
+       48:   51:    for (int j = 0; j < 3; j++) {
+       36:   52:      if (velha[i][j] == 1) {
+       12:   53:        contador++;
+        -:   54:      }
+        -:   55:    }
+        -:   56:  }
+        4:   57:  return contador;
+        -:   58:}
+        -:   59:
+        4:   60:int NumerodeO(int velha[3][3]) {
+        4:   61:  int contador = 0;
+       16:   62:  for (int i = 0; i < 3; i++) {
+       48:   63:    for (int j = 0; j < 3; j++) {
+       36:   64:      if (velha[i][j] == 2) {
+       12:   65:        contador++;
+        -:   66:      }
+        -:   67:    }
+        -:   68:  }
+        4:   69:  return contador;
+        -:   70:}
+        -:   71:
+        -:   72:
+        2:   73:int VerificaValido(int velha[3][3]) {
+        2:   74:  int numX = NumerodeX(velha);
+        2:   75:  int numO = NumerodeO(velha);
+        2:   76:  int diff = numX - numO;
+        2:   77:  if (diff >= 0 && diff <= 1) {
+        2:   78:    return 1;  // Jogo valido
+        -:   79:  } else {
+    #####:   80:    return 0;  // Jogo invalido
+        -:   81:  }
+        -:   82:}
+        -:   83:

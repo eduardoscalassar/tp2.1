@@ -46,13 +46,13 @@ int VerificaVelha(int velha[3][3]) {
 }
 
 int NumerodeX(int velha[3][3]) {
-	  int contador = 0;
+  int contador = 0;
   for (int i = 0; i < 3; i++) {
-	for (int j = 0; j < 3; j++) {
-	  if (velha[i][j] == 1) {
-		contador++;
-	  }
-	}
+    for (int j = 0; j < 3; j++) {
+      if (velha[i][j] == 1) {
+        contador++;
+      }
+    }
   }
   return contador;
 }
@@ -60,11 +60,11 @@ int NumerodeX(int velha[3][3]) {
 int NumerodeO(int velha[3][3]) {
   int contador = 0;
   for (int i = 0; i < 3; i++) {
-	for (int j = 0; j < 3; j++) {
-	  if (velha[i][j] == 2) {
-		contador++;
-	  }
-	}
+    for (int j = 0; j < 3; j++) {
+      if (velha[i][j] == 2) {
+        contador++;
+      }
+    }
   }
   return contador;
 }
@@ -75,10 +75,9 @@ int VerificaValido(int velha[3][3]) {
   int numO = NumerodeO(velha);
   int diff = numX - numO;
   if (diff >= 0 && diff <= 1) {
-	return 1;  // Jogo valido
+    return 1;  // Jogo valido
   } else {
-	return 0;  // Jogo invalido
+    return 0;  // Jogo invalido
   }
-	return 0;
 }
 

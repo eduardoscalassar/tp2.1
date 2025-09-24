@@ -22,24 +22,24 @@ TEST_CASE("Testa velha", "[single-file]") {
 
 TEST_CASE("Testa numero de X", "[single-file]") {
   int teste1[3][3] = { { 2, 0, 1 },
-					   { 2, 0, 1 },
-					   { 0, 2, 1 }
-					 };
+                       { 2, 0, 1 },
+                       { 0, 2, 1 }
+                     };
   REQUIRE(NumerodeX(teste1) == 3);
 }
 
 TEST_CASE("Testa numero de O", "[single-file]") {
   int teste1[3][3] = { { 2, 0, 1 },
-					   { 2, 0, 1 },
-					   { 0, 2, 1 }
-					 };
+                       { 2, 0, 1 },
+                       { 0, 2, 1 }
+                     };
   REQUIRE(NumerodeO(teste1) == 3);
 }
 
 TEST_CASE("Testa se o jogo eh valido", "[single-file]") {
   int teste1[3][3] = { { 2, 0, 1 },
-					   { 2, 0, 1 },
-					   { 0, 2, 1 }
-					 };
+                       { 2, 0, 1 },
+                       { 0, 2, 1 }
+                     };
   REQUIRE(VerificaValido(teste1) == 1);
 }

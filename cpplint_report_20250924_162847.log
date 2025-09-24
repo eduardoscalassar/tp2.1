@@ -1,0 +1,49 @@
+Ignoring cppcheck_report_20250924_144738.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring cpplint.py; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring cpplint_report_20250924_144734.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring cpplint_report_20250924_151112.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring gcov_report_20250924_144707.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring leia_me.txt; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results_20250924_142813.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results_20250924_142916.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results_20250924_143955.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results_20250924_152632.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results_20250924_153610.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results_20250924_154331.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results_20250924_162507.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring test_results_20250924_162718.log; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring testa_velha-testa_velha.gcda; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring testa_velha-testa_velha.gcno; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+testa_velha.cpp:7:  Include the directory when naming header files  [build/include_subdir] [4]
+testa_velha.cpp:12:  Include the directory when naming header files  [build/include_subdir] [4]
+testa_velha.cpp:25:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:26:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:27:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:33:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:34:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:35:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:41:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:42:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:43:  Tab found; better to use spaces  [whitespace/tab] [1]
+testa_velha.cpp:45:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+velha.cpp:6:  Include the directory when naming header files  [build/include_subdir] [4]
+velha.cpp:49:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:51:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:52:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:53:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:54:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:55:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:63:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:64:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:65:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:66:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:67:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:78:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:80:  Tab found; better to use spaces  [whitespace/tab] [1]
+velha.cpp:82:  Tab found; better to use spaces  [whitespace/tab] [1]
+Ignoring velha.cpp.gcov; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring velha.gcda; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+Ignoring velha.gcno; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
+velha.hpp:14:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+Ignoring velha.o; not a valid file name (h, hpp, c, hxx, cu, cc, hh, cxx, cuh, h++, cpp, c++)
