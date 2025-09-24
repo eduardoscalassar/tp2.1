@@ -25,5 +25,7 @@ de acordo com o cpplint (Refatoração).
   Para cada uma dessas fases houve um commit chamado "test_results" seguido da data e horarário do commit, de forma que eles ficaram em ordem cronológica. Neles pode-se
 observar que a implementação das funções seguiu o padrão do TDD, em que primeiro o teste não passava, depois tentava-se passar no teste, e depois refatorava-se.
 
+  Além disso, existem relatórios referentes ao cpplint, cppcheck e gcov, que foram pedidos no trabalho. A cada refatoração esses relatórios foram guia para a melhoria do código.
+
   Para testar o jogo, vá no diretório do arquivo e digite na linha de comando "./jogo".
 
