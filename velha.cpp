@@ -69,6 +69,7 @@ int NumerodeO(int velha[3][3]) {
   return contador;
 }
 
+/*
 int VerificaValido(int velha[3][3]) {
   int numX = NumerodeX(velha);
   int numO = NumerodeO(velha);
@@ -79,3 +80,4 @@ int VerificaValido(int velha[3][3]) {
 	return 0;  // Jogo invalido
   }
 }
+*/

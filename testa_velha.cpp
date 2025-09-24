@@ -41,7 +41,5 @@ TEST_CASE("Testa se o jogo eh valido", "[single-file]") {
 					   { 2, 0, 1 },
 					   { 0, 2, 1 }
 					 };
-  int diff = NumerodeX(teste1) - NumerodeO(teste1);
-  REQUIRE(diff >= 0);
-  REQUIRE(diff <= 1);
+  REQUIRE(VerificaValido(teste1) == 1);
 }
