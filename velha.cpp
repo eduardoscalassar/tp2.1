@@ -97,3 +97,7 @@ int VerificaFim(int velha[3][3]){
 	}
 }
 
+int SituacaoJogo(int velha[3][3]){
+	return 3; //O teste vai falhar
+}
+

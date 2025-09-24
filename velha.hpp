@@ -12,5 +12,7 @@ int VerificaValido(int velha[3][3]);
 
 int VerificaFim(int velha[3][3]);
 
+int SituacaoJogo(int velha[3][3]);
+
 
 #endif  // VELHA_HPP_
