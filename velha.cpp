@@ -45,5 +45,26 @@ int VerificaVelha(int velha[3][3]) {
   return 0;
 }
 
+int NumerodeX(int velha[3][3]) {
+	  int contador = 0;
+  for (int i = 0; i < 3; i++) {
+	for (int j = 0; j < 3; j++) {
+	  if (velha[i][j] == 1) {
+		contador++;
+	  }
+	}
+  }
+  return contador;
+}
 
-
+int NumerodeO(int velha[3][3]) {
+  int contador = 0;
+  for (int i = 0; i < 3; i++) {
+	for (int j = 0; j < 3; j++) {
+	  if (velha[i][j] == 2) {
+		contador++;
+	  }
+	}
+  }
+  return contador;
+}
